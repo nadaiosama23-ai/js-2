@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.icon{
+    background-color: #ff5213;
+    color: white;
+}
+.your-meal{
+    font-size: 14px;
+    line-height: 20px;
+    color: #6a7282;
+}
+.What-is-For{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #101828;
+}
+.nav-avatar img{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff5213;
+}
+.right-icons{
+    transition-duration: .3s;
+    transition-property: color;
+    width: 30px;
+    color: #4a5565;
+}
+.right-icons:hover{
+    color: #ff5213;
+}
+/* ..... START SECTION ..... */
+
+.sec-bg{
+    background-image: linear-gradient(to bottom, #fffbeb , #fefce8);
+}
+.Intermediate{
+    color: #2a8236;
+    background-color: #dbfce7;
+}
+.Asian{
+    color: #1447e6;
+    background-color: #dbeafe;
+}
+.two-icons{
+    height: fit-content;
+    padding: 20px;
+}
+.icon-bookmark{
+    background-color: #ffedd4;
+    transition-duration: .3s;
+    transition-property: all;
+    text-align: center;
+}
+.icon-bookmark:hover{
+    background-color: #ffb86a;
+    cursor: pointer;
+}
+.icon-share{
+    background-color: #ffedd4;
+    transition-duration: .3s;
+    transition-property: all;
+}
+.icon-share:hover{
+    background-color: #ffb86a;
+    cursor: pointer;
+}
+/* warning */
+.warning{
+    background-color: #fef2f2;
+    border-left: 3px solid #fb2c36;
+}
+.warning-h{
+    color: #9f0712;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+}
+.warning-p{
+    color: #e7000b;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/* mn bootstrap */
+.ul-section{
+    height: 350px;
+    
+}
+.li-section{
+    background-color: #ff6900;
+    color: white;
+    padding: 1px 6px;
+}
+.li-section .span-font{
+    font-size: 16px;
+    line-height: 24px;
+    color: #364153;
+    font-weight: 400;
+}
+/* chat */
+.nutri-card{
+    background-color: #f9fafb;
+}
+.nutri-card .label {
+  font-size: 14px;
+  color: #666;
+}
+
+.nutri-card .value {
+  font-size: 18px;
+  color: #000;
+}
+
+.icon-c {
+  font-size: 22px;
+}
+
+.chefteps{
+    background-color: #fffbeb;
+    border-left: 2px solid #e17100;
+}
+.chefteps-icon{
+    background-color: #e17100;
+    border-radius: 50%;
+}
+.chefteps-h{
+    color: #9f0712;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+}
+.chefteps-p{
+    color: #364153;
+    line-height: 24px;
+    font-size: 16px;
+}
+.try{
+    background-image: linear-gradient(to right, #ff6900, #fa2d36);
+    border: none;
+    padding: 10px 15px;
+    transition-property: all;
+    transition-duration: .2s;
+}
+.try:hover{
+    scale: calc(1.1);
+    background-image: linear-gradient(to right, #f54a00, #e7000b);
+}
+/* image-card */
+.span-image{
+    bottom: 25px;
+    left: 25px;
+    width: 85%;
+    margin: auto;
+}
