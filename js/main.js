@@ -5,7 +5,7 @@ function changeContent(){
     <div class="container shadow-lg py-4">
         <div class="caard min-vh-100 row bg-white">
 
-          <div class="image col-md-4 position-relative bg-danger">
+          <div class="image col-md-4 position-relative">
             <span class="position-absolute bg-white px-2 py-1 mt-3 rounded-5">
               <i class="fa-solid fa-star" style="color: #ffd43b"></i> 4.6
               (289reviews)
@@ -29,7 +29,7 @@ function changeContent(){
               </div>
               </div>
             </div>
-            <img class="w-100 h-100 object-fit-cover" src=${recipes[i].img}/>
+            <img class="w-100 h-100 object-fit-cover" src="${recipes[i].img}"/>
           </div>
 
           <div class="content col-md-8 py-4">
@@ -40,7 +40,7 @@ function changeContent(){
 
             <div class="card-header d-flex">
               <div>
-                <h2 class="mt-3 text-black fw-bolder">Chicken Tikka Masala</h2>
+                <h2 class="mt-3 text-black fw-bolder">${recipes[i].title}</h2>
                 <p>Rich and creamy Indian curry with tender chicken pieces</p>
               </div>
               <div class="two-icons ms-auto pe-4 d-flex gap-3 bg-transparent">
@@ -296,7 +296,7 @@ function changeContent(){
 const recipes = [
   {
     title: "French Onion Soup",
-    img:"./images/image2.avif",
+    img:"./images/image1.avif",
     rating: 4.7,
     reviews: 267,
     prepTime: "15 min",
@@ -331,7 +331,7 @@ const recipes = [
     title: "Chicken Alfredo Pasta",
     rating: 4.8,
     reviews: 421,
-    img:"./images/imgi2_photo.webp",
+    img:"./images/image2.avif",
     prepTime: "20 min",
     cookTime: "30 min",
     servings: 3,
@@ -365,7 +365,7 @@ const recipes = [
     title: "Beef Tacos",
     rating: 4.2,
     reviews: 310,
-    img:"./images/imgi3_photo.webp",
+    img:"./images/image3.avif",
     prepTime: "10 min",
     cookTime: "15 min",
     servings: 4,
@@ -399,7 +399,7 @@ const recipes = [
     title: "Vegetable Stir Fry",
     rating: 4.6,
     reviews: 189,
-    img:"./images/imgi4_photo.webp",
+    img:"./images/image4.avif",
     prepTime: "15 min",
     cookTime: "10 min",
     servings: 2,
@@ -433,7 +433,7 @@ const recipes = [
     title: "Margherita Pizza",
     rating: 4.9,
     reviews: 502,
-    img:"./images/imgi5_photo.webp",
+    img:"./images/image5.avif",
     prepTime: "25 min",
     cookTime: "15 min",
     servings: 2,
